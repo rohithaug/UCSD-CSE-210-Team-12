@@ -1,0 +1,48 @@
+.graphWrapper {
+  position: center;
+  grid-gap: 100px 12%;
+  grid-template-columns: 40% 40%;
+  padding: 70px 50px;
+  display: grid;
+}
+
+.header {
+  border-color: #add8e6;
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  background-color: #2596be;
+  border-top: 1px solid #fff;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.nobreak {
+  display: inline;
+}
+
+.logo {
+  height: 40px;
+  position: absolute;
+  right: 10px;
+}
+
+.test4 {
+  grid-area: 2 / 2;
+  width: 50%;
+}
+
+/*# sourceMappingURL=index.46b7cd85.css.map */
